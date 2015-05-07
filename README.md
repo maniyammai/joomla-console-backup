@@ -49,4 +49,4 @@ See the list of [contributors](https://github.com/joomlatools/joomla-console-bac
 
 ## License
 
-The `joomlatools/joomla-console` plugin is licensed under the MPL v2 license - see the LICENSE file for details.
+The `joomlatools/joomla-console-backup` plugin is licensed under the MPL v2 license - see the LICENSE file for details.
