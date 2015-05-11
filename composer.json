@@ -1,5 +1,5 @@
 {
-  "name": "joomlatools/joomla-console-backup",
+  "name": "joomlatools/joomla-console-backup-plugin",
   "license": "MPLv2",
   "description": "Example plugin: a backup command for joomla-console",
   "homepage": "https://github.com/joomlatools/joomla-console-backup-plugin",
