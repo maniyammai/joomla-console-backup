@@ -20,13 +20,13 @@ Installation
 Writing your own plugin
 -----------------------
 
-It's very easy to add custom commands to the tool. We recommended installing this plugin on your local setup and then starting off from there.
+It's very easy to add custom commands to the tool. We recommended installing this plugin on your local setup and then starting off from there. You can find a step-by-step description on our documentation page.
 
 A few pointers to help you get started:
 
 1. All plugins are installed in the `plugins` directory. If you installed joomla-console globally you'll find this directory at `~/.composer/vendor/joomlatools/joomla-console/plugins`
 
-1. All commands must be in the `Joomlatools\Console\Command` namespace or they won't be found. Make sure to setup the [autoload mapping](https://getcomposer.org/doc/04-schema.md#autoload) according to the composer specs.
+1. All commands must be put in the `Foo\Console\Command` namespace or they won't be found, where `Foo` can be any vendor name. Make sure to setup the [autoload mapping](https://getcomposer.org/doc/04-schema.md#autoload) according to the composer specs.
 
 1. If you are developing a new plugin make sure to register it manually in Composer's `autoload_namespaces.php` file in the `plugins/vendor/composer` directory. Also add it to the composer.json file in the `plugins` directory or the joomla-console tool will not be able to load it. Once published via Packagist this will all be done automatically when you install it.
 
