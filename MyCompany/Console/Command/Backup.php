@@ -1,9 +1,11 @@
 <?php
-namespace Joomlatools\Console\Command;
+namespace MyCompany\Console\Command;
 
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
+
+use Joomlatools\Console\Command\SiteAbstract;
 
 class Backup extends SiteAbstract
 {
