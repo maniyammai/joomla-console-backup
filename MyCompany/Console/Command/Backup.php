@@ -1,4 +1,12 @@
 <?php
+/**
+ * Joomlatools Console backup plugin - https://github.com/joomlatools/joomla-console-backup
+ *
+ * @copyright	Copyright (C) 2011 - 2013 Johan Janssens and Timble CVBA. (http://www.timble.net)
+ * @license		GNU GPLv3 <http://www.gnu.org/licenses/gpl.html>
+ * @link		http://github.com/joomlatools/joomla-composer for the canonical source repository
+ */
+ 
 namespace MyCompany\Console\Command;
 
 use Symfony\Component\Console\Input\InputInterface;
@@ -7,6 +15,12 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 use Joomlatools\Console\Command\SiteAbstract;
 
+/**
+ * Backup plugin class.
+ *
+ * @author  Steven Rombauts <https://github.com/stevenrombauts>
+ * @package Joomlatools\Console
+ */
 class Backup extends SiteAbstract
 {
     protected $backup_directory;
